@@ -1,0 +1,47 @@
+:root {
+    --dark1: #0E090C;
+    --orange: #D7935E;
+    --violetBlue: #5B54A0;
+    --bg-default: #F2F5F7;
+    --gray: #5a5757;
+    --darkRed: #a7132e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-default {
+    background-color: var(--bg-default);
+}
+
+.title {
+    color: var(--violetBlue);
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.titleGallery {
+    background-color: #e5eef5;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    padding-top: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 2.6rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .title {
+        font-size: 3rem;
+    }
+}
