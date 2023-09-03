@@ -4,6 +4,10 @@ Projeto com consumo de API do Star Wars desenvolvindo em React.
 
 A api foi consumida para a criação da GALERIA, que contém cards com informações de cada personagem.
 
+Foi instalado o Bootstrap no terminal para o uso do Container.
+
+Deploy Vercel: https://starwars-api-steel.vercel.app/
+
 - Fontes utilizadas:
 
 https://www.tecmundo.com.br/minha-serie/249230-star-wars-11-personagens-marcantes-filmes.htm 
