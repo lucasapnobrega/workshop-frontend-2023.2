@@ -6,6 +6,8 @@ A api foi consumida para a criação da GALERIA, que contém cards com informaç
 
 Foi instalado o Bootstrap no terminal para o uso do Container.
 
+Site 100% responsivo.
+
 Deploy Vercel: https://starwars-api-steel.vercel.app/
 
 - Fontes utilizadas:
