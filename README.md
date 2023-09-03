@@ -1,8 +1,10 @@
-# React + Vite
+Desafio - Star Wars
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto com consumo de API do Star Wars desenvolvindo em React.
 
-Currently, two official plugins are available:
+A api foi consumida para a criação da GALERIA, que contém cards com informações de cada personagem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fontes utilizadas:
+https://www.tecmundo.com.br/minha-serie/249230-star-wars-11-personagens-marcantes-filmes.htm | 
+https://www.opovo.com.br/vidaearte/2023/05/04/10-curiosidades-sobre-a-saga-star-wars.html | 
+https://br.pinterest.com/pin/774478467164162787/ |
