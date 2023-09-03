@@ -1,0 +1,52 @@
+.curiosity .container {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.curiosity .container .curiosityTitle {
+    margin-bottom: 4rem;
+}
+
+.curiosityList {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: left;
+}
+
+.curiosityList li {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.curiosityList p {
+    color: var(--gray);
+    margin-bottom: 2.4rem;
+}
+
+.img {
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .img {
+        max-width: 45%;
+    }
+
+    .curiosityList {
+        text-align: left;
+    }
+}

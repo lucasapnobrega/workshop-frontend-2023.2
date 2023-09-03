@@ -1,0 +1,41 @@
+.mainCharacters .container {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.mainCharacters .container p {
+    margin-bottom: 2.5rem;
+}
+
+.paragraph {
+    color: var(--gray);
+}
+
+.mainCharactersCards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .mainCharactersTitle {
+        font-size: 2.6rem;
+    }
+
+    .mainCharacters .container p {
+        font-size: 1.1rem;
+    }
+
+    .mainCharactersCards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .mainCharactersTitle {
+        font-size: 3em;
+    }
+} 

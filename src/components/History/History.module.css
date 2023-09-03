@@ -1,0 +1,40 @@
+.history .container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.historyTitle {
+    padding-top: 2.5rem;
+}
+
+.historyParagraph {
+    line-height: 1.8;
+    color: var(--gray);
+}
+
+.img {
+    max-width: 95%;
+}
+
+@media (min-width: 768px) {
+    .img {
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .historyParagraph {
+        font-size: 1.1rem;
+    }
+
+    .img {
+        max-width: 55%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .img {
+        max-width: 40%;
+    }
+}

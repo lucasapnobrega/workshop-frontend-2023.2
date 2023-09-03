@@ -1,0 +1,65 @@
+.MCard {
+    background-color: #6E3430;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 4px 8px 6px 1px rgba(0, 0, 0, 0.4)
+}
+
+.MCard h3 {
+    color: var(--dark1);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.MCard .img {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .MCard {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .MCardContent {
+        text-align: left;
+    }
+
+    .MCard .img {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .MCard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 550px;
+    }
+
+    .MCard h3 {
+        text-align: center;
+    }
+
+    .MCard .img {
+        width: 50%;
+        height: 250px;
+    }
+
+    .MCardContent {
+        height: 45%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .MCard .img {
+        width: 50%;
+        height: 300px;
+    }
+}
